@@ -4,7 +4,7 @@ Essa aplicação tem como objetivo fazer o uso das proteções de rotas do angul
 
 ## Acesso
 
-Para acessar o app, rode `ng s` no terminal na pasta do projeto. Vá para `http://localhost:4200/`. Além disso lembre-se de rodar o servidor mencionado acima localmente.
+Para acessar o app, rode `ng s` no terminal, na pasta do projeto. Vá para `http://localhost:4200/`. Além disso, lembre-se de rodar o servidor mencionado acima localmente.
 
 ## Informação
 
