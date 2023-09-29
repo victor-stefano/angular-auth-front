@@ -1,27 +1,11 @@
 # AngularAuthFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+Essa aplicação tem como objetivo fazer o uso das proteções de rotas do angular em uma página que simula um login de um site. A aplicação consome um servidor que deve ser rodado localmente, disponível [aqui](https://github.com/troquatte/curso-de-angular-fake-jwt), e por meio dele receber um JSON Web Token (JWT). Caso o usuário insira as informações corretas ele deve conseguir acessar a próxima página, caso contrário, uma mensagem é exibida para informar que os dados digitados estão incorretos.
 
-## Development server
+## Acesso
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para acessar o app, rode `ng s` no terminal na pasta do projeto. Vá para `http://localhost:4200/`. Além disso lembre-se de rodar o servidor mencionado acima localmente.
 
-## Code scaffolding
+## Informação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.3.
